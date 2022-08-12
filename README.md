@@ -1,4 +1,4 @@
-# just_learning_SwiftUI
+# just_learn_SwiftUI
 
 >SwiftUI学习记录
 
