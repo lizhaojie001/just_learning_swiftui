@@ -6,4 +6,4 @@
 
 [01_swiftui_Text](./01_first_demo_swiftui.jpg)
 
->[Text/VStack/HStack](./01_first_demo_swiftui/ContentView.swift)
+>[Text/VStack/HStack](./01_first_demo_swiftui/01_first_demo_swiftui/ContentView.swift)
