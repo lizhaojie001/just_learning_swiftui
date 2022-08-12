@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+
 struct Star: View {
     var color: Color
 
@@ -18,10 +20,15 @@ struct Star: View {
 struct ContentView: View {
     var body: some View {
         VStack(
-            alignment: .leading,
-            spacing : 10
+            alignment: .center
         )
         {
+            MapView().frame(height: 300)
+            CircleImage()
+                .offset(y:-100)
+                .padding(.bottom,-100)
+                
+            
             HStack{
                 Text("Hello, world!")
                
@@ -46,6 +53,8 @@ struct ContentView: View {
             .padding()
             .foregroundColor(Color.orange)
             }
+            
+            Divider()
             
             Text("Hello, world!")
             .border(Color.red, width: 1)
@@ -82,9 +91,13 @@ struct ContentView: View {
             
             
             Spacer()
+           
+           
              
         }
-        .padding()
+        .background(content: {
+            Image("bg").aspectRatio(contentMode: .fit)
+        })
 
     }
 }
@@ -94,5 +107,17 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ContentView()
         }
+    }
+}
+
+
+struct CircleImage : View {
+    var body: some View {
+        Image("star")
+            .background(){Color.purple}
+            .clipShape(Circle())
+            .overlay(Circle().stroke(.gray,lineWidth: 4))
+            .shadow(radius: 7)
+        
     }
 }
