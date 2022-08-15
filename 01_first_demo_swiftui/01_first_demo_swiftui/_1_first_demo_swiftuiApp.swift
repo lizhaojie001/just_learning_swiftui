@@ -12,6 +12,7 @@ struct _1_first_demo_swiftuiApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//            LandmarkRow(landmark: landmarks[0])
         }
     }
 }

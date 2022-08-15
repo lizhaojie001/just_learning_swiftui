@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		1FD1D39128A63C7D00E77E05 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1FD1D39028A63C7D00E77E05 /* README.md */; };
 		1FD1D3B428A646D300E77E05 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1D3B328A646D300E77E05 /* MapView.swift */; };
+		1FD1D3B628A64DE100E77E05 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FD1D3B528A64DE100E77E05 /* landmarkData.json */; };
+		1FD1D3B828A64DFC00E77E05 /* LankMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1D3B728A64DFC00E77E05 /* LankMark.swift */; };
+		1FD1D3BA28A650D200E77E05 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1D3B928A650D200E77E05 /* ModelData.swift */; };
+		1FD1D3BF28A6540200E77E05 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1D3BE28A6540200E77E05 /* LandmarkRow.swift */; };
+		1FD1D3C128A6584C00E77E05 /* landmarklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1D3C028A6584C00E77E05 /* landmarklist.swift */; };
+		1FD1D3C328A6596C00E77E05 /* LandmarkDetial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1D3C228A6596C00E77E05 /* LandmarkDetial.swift */; };
 		1FD4355A28A5F2BD00978CF4 /* _1_first_demo_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4355928A5F2BD00978CF4 /* _1_first_demo_swiftuiApp.swift */; };
 		1FD4355C28A5F2BD00978CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4355B28A5F2BD00978CF4 /* ContentView.swift */; };
 		1FD4355E28A5F2C000978CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD4355D28A5F2C000978CF4 /* Assets.xcassets */; };
@@ -18,6 +24,12 @@
 /* Begin PBXFileReference section */
 		1FD1D39028A63C7D00E77E05 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		1FD1D3B328A646D300E77E05 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1FD1D3B528A64DE100E77E05 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		1FD1D3B728A64DFC00E77E05 /* LankMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LankMark.swift; sourceTree = "<group>"; };
+		1FD1D3B928A650D200E77E05 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		1FD1D3BE28A6540200E77E05 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		1FD1D3C028A6584C00E77E05 /* landmarklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarklist.swift; sourceTree = "<group>"; };
+		1FD1D3C228A6596C00E77E05 /* LandmarkDetial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetial.swift; sourceTree = "<group>"; };
 		1FD4355628A5F2BD00978CF4 /* 01_first_demo_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_first_demo_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD4355928A5F2BD00978CF4 /* _1_first_demo_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_first_demo_swiftuiApp.swift; sourceTree = "<group>"; };
 		1FD4355B28A5F2BD00978CF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +48,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FD1D3BB28A6526C00E77E05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FD4355B28A5F2BD00978CF4 /* ContentView.swift */,
+				1FD1D3B328A646D300E77E05 /* MapView.swift */,
+				1FD1D3BE28A6540200E77E05 /* LandmarkRow.swift */,
+				1FD1D3C028A6584C00E77E05 /* landmarklist.swift */,
+				1FD1D3C228A6596C00E77E05 /* LandmarkDetial.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FD1D3BC28A6527C00E77E05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1FD1D3B728A64DFC00E77E05 /* LankMark.swift */,
+				1FD1D3B928A650D200E77E05 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FD1D3BD28A6528A00E77E05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FD1D3B528A64DE100E77E05 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		1FD4354D28A5F2BD00978CF4 = {
 			isa = PBXGroup;
 			children = (
@@ -55,9 +96,10 @@
 		1FD4355828A5F2BD00978CF4 /* 01_first_demo_swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				1FD1D3BD28A6528A00E77E05 /* Resources */,
+				1FD1D3BC28A6527C00E77E05 /* Model */,
+				1FD1D3BB28A6526C00E77E05 /* Views */,
 				1FD4355928A5F2BD00978CF4 /* _1_first_demo_swiftuiApp.swift */,
-				1FD4355B28A5F2BD00978CF4 /* ContentView.swift */,
-				1FD1D3B328A646D300E77E05 /* MapView.swift */,
 				1FD1D39028A63C7D00E77E05 /* README.md */,
 				1FD4355D28A5F2C000978CF4 /* Assets.xcassets */,
 				1FD4355F28A5F2C000978CF4 /* Preview Content */,
@@ -132,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FD1D39128A63C7D00E77E05 /* README.md in Resources */,
+				1FD1D3B628A64DE100E77E05 /* landmarkData.json in Resources */,
 				1FD4356128A5F2C000978CF4 /* Preview Assets.xcassets in Resources */,
 				1FD4355E28A5F2C000978CF4 /* Assets.xcassets in Resources */,
 			);
@@ -146,6 +189,11 @@
 			files = (
 				1FD4355C28A5F2BD00978CF4 /* ContentView.swift in Sources */,
 				1FD1D3B428A646D300E77E05 /* MapView.swift in Sources */,
+				1FD1D3BF28A6540200E77E05 /* LandmarkRow.swift in Sources */,
+				1FD1D3BA28A650D200E77E05 /* ModelData.swift in Sources */,
+				1FD1D3C328A6596C00E77E05 /* LandmarkDetial.swift in Sources */,
+				1FD1D3B828A64DFC00E77E05 /* LankMark.swift in Sources */,
+				1FD1D3C128A6584C00E77E05 /* landmarklist.swift in Sources */,
 				1FD4355A28A5F2BD00978CF4 /* _1_first_demo_swiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
