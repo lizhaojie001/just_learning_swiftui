@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F8473A328AA296E00CE41C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8473A128AA296E00CE41C3 /* Assets.xcassets */; };
-		1F8473A428AA296E00CE41C3 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F8473A228AA296E00CE41C3 /* landmarkData.json */; };
-		1FD1D39128A63C7D00E77E05 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1FD1D39028A63C7D00E77E05 /* README.md */; };
+		1F84739E28AA292E00CE41C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F84739C28AA292D00CE41C3 /* Assets.xcassets */; };
+		1F84739F28AA292E00CE41C3 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F84739D28AA292D00CE41C3 /* landmarkData.json */; };
+		1FB7CB1B28A9F64B00D76054 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB7CB1A28A9F64B00D76054 /* FavoriteButton.swift */; };
 		1FD1D3B428A646D300E77E05 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1D3B328A646D300E77E05 /* MapView.swift */; };
 		1FD1D3B828A64DFC00E77E05 /* LankMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1D3B728A64DFC00E77E05 /* LankMark.swift */; };
 		1FD1D3BA28A650D200E77E05 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1D3B928A650D200E77E05 /* ModelData.swift */; };
@@ -18,23 +18,21 @@
 		1FD1D3C328A6596C00E77E05 /* LandmarkDetial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1D3C228A6596C00E77E05 /* LandmarkDetial.swift */; };
 		1FD4355A28A5F2BD00978CF4 /* _1_first_demo_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4355928A5F2BD00978CF4 /* _1_first_demo_swiftuiApp.swift */; };
 		1FD4355C28A5F2BD00978CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4355B28A5F2BD00978CF4 /* ContentView.swift */; };
-		1FD4356128A5F2C000978CF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD4356028A5F2C000978CF4 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F8473A128AA296E00CE41C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F8473A228AA296E00CE41C3 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
-		1FD1D39028A63C7D00E77E05 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		1F84739C28AA292D00CE41C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F84739D28AA292D00CE41C3 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		1FB7CB1A28A9F64B00D76054 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoriteButton.swift; path = ../../../../Desktop/MacDemo/FavoriteButton.swift; sourceTree = "<group>"; };
 		1FD1D3B328A646D300E77E05 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		1FD1D3B728A64DFC00E77E05 /* LankMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LankMark.swift; sourceTree = "<group>"; };
 		1FD1D3B928A650D200E77E05 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		1FD1D3BE28A6540200E77E05 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		1FD1D3C028A6584C00E77E05 /* landmarklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarklist.swift; sourceTree = "<group>"; };
 		1FD1D3C228A6596C00E77E05 /* LandmarkDetial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetial.swift; sourceTree = "<group>"; };
-		1FD4355628A5F2BD00978CF4 /* 01_first_demo_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_first_demo_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD4355628A5F2BD00978CF4 /* 02_handing_user_input.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 02_handing_user_input.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD4355928A5F2BD00978CF4 /* _1_first_demo_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_first_demo_swiftuiApp.swift; sourceTree = "<group>"; };
 		1FD4355B28A5F2BD00978CF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1FD4356028A5F2C000978CF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +46,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F8473A028AA296E00CE41C3 /* Resources */ = {
+		1F84739B28AA292D00CE41C3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1F8473A128AA296E00CE41C3 /* Assets.xcassets */,
-				1F8473A228AA296E00CE41C3 /* landmarkData.json */,
+				1F84739C28AA292D00CE41C3 /* Assets.xcassets */,
+				1F84739D28AA292D00CE41C3 /* landmarkData.json */,
 			);
 			name = Resources;
 			path = ../../Resources;
@@ -66,6 +64,7 @@
 				1FD1D3BE28A6540200E77E05 /* LandmarkRow.swift */,
 				1FD1D3C028A6584C00E77E05 /* landmarklist.swift */,
 				1FD1D3C228A6596C00E77E05 /* LandmarkDetial.swift */,
+				1FB7CB1A28A9F64B00D76054 /* FavoriteButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -90,7 +89,7 @@
 		1FD4355728A5F2BD00978CF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FD4355628A5F2BD00978CF4 /* 01_first_demo_swiftui.app */,
+				1FD4355628A5F2BD00978CF4 /* 02_handing_user_input.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,11 +97,10 @@
 		1FD4355828A5F2BD00978CF4 /* 01_first_demo_swiftui */ = {
 			isa = PBXGroup;
 			children = (
-				1F8473A028AA296E00CE41C3 /* Resources */,
+				1F84739B28AA292D00CE41C3 /* Resources */,
 				1FD1D3BC28A6527C00E77E05 /* Model */,
 				1FD1D3BB28A6526C00E77E05 /* Views */,
 				1FD4355928A5F2BD00978CF4 /* _1_first_demo_swiftuiApp.swift */,
-				1FD1D39028A63C7D00E77E05 /* README.md */,
 				1FD4355F28A5F2C000978CF4 /* Preview Content */,
 			);
 			path = 01_first_demo_swiftui;
@@ -111,7 +109,6 @@
 		1FD4355F28A5F2C000978CF4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1FD4356028A5F2C000978CF4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -119,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1FD4355528A5F2BD00978CF4 /* 01_first_demo_swiftui */ = {
+		1FD4355528A5F2BD00978CF4 /* 02_handing_user_input */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FD4356428A5F2C000978CF4 /* Build configuration list for PBXNativeTarget "01_first_demo_swiftui" */;
+			buildConfigurationList = 1FD4356428A5F2C000978CF4 /* Build configuration list for PBXNativeTarget "02_handing_user_input" */;
 			buildPhases = (
 				1FD4355228A5F2BD00978CF4 /* Sources */,
 				1FD4355328A5F2BD00978CF4 /* Frameworks */,
@@ -131,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = 01_first_demo_swiftui;
+			name = 02_handing_user_input;
 			productName = 01_first_demo_swiftui;
-			productReference = 1FD4355628A5F2BD00978CF4 /* 01_first_demo_swiftui.app */;
+			productReference = 1FD4355628A5F2BD00978CF4 /* 02_handing_user_input.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,7 +148,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1FD4355128A5F2BD00978CF4 /* Build configuration list for PBXProject "01_first_demo_swiftui" */;
+			buildConfigurationList = 1FD4355128A5F2BD00978CF4 /* Build configuration list for PBXProject "02_handing_user_input" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -164,7 +161,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1FD4355528A5F2BD00978CF4 /* 01_first_demo_swiftui */,
+				1FD4355528A5F2BD00978CF4 /* 02_handing_user_input */,
 			);
 		};
 /* End PBXProject section */
@@ -174,10 +171,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FD1D39128A63C7D00E77E05 /* README.md in Resources */,
-				1F8473A428AA296E00CE41C3 /* landmarkData.json in Resources */,
-				1F8473A328AA296E00CE41C3 /* Assets.xcassets in Resources */,
-				1FD4356128A5F2C000978CF4 /* Preview Assets.xcassets in Resources */,
+				1F84739E28AA292E00CE41C3 /* Assets.xcassets in Resources */,
+				1F84739F28AA292E00CE41C3 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +186,7 @@
 				1FD4355C28A5F2BD00978CF4 /* ContentView.swift in Sources */,
 				1FD1D3B428A646D300E77E05 /* MapView.swift in Sources */,
 				1FD1D3BF28A6540200E77E05 /* LandmarkRow.swift in Sources */,
+				1FB7CB1B28A9F64B00D76054 /* FavoriteButton.swift in Sources */,
 				1FD1D3BA28A650D200E77E05 /* ModelData.swift in Sources */,
 				1FD1D3C328A6596C00E77E05 /* LandmarkDetial.swift in Sources */,
 				1FD1D3B828A64DFC00E77E05 /* LankMark.swift in Sources */,
@@ -319,14 +315,16 @@
 		1FD4356528A5F2C000978CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"01_first_demo_swiftui/Preview Content\"";
 				DEVELOPMENT_TEAM = WV5UP98J28;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-2-handing-user-input-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +337,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yanqing.pkg.-1-first-demo-swiftui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,14 +347,16 @@
 		1FD4356628A5F2C000978CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"01_first_demo_swiftui/Preview Content\"";
 				DEVELOPMENT_TEAM = WV5UP98J28;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-2-handing-user-input-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -368,6 +369,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yanqing.pkg.-1-first-demo-swiftui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -377,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FD4355128A5F2BD00978CF4 /* Build configuration list for PBXProject "01_first_demo_swiftui" */ = {
+		1FD4355128A5F2BD00978CF4 /* Build configuration list for PBXProject "02_handing_user_input" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FD4356228A5F2C000978CF4 /* Debug */,
@@ -386,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FD4356428A5F2C000978CF4 /* Build configuration list for PBXNativeTarget "01_first_demo_swiftui" */ = {
+		1FD4356428A5F2C000978CF4 /* Build configuration list for PBXNativeTarget "02_handing_user_input" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FD4356528A5F2C000978CF4 /* Debug */,
