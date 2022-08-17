@@ -11,8 +11,14 @@ struct ProfileHost: View {
     @Environment(\.editMode) var editMode
     @EnvironmentObject var modelData : ModelData
     @State private var draftProfile = Profile.default
-
+    private var profileSummary : ProfileSummary {
+        ProfileSummary(profile: $modelData.profile)
+    }
+    private  var profileEditor : ProfileEditor {
+        ProfileEditor(profile:$modelData.profile)
+    }
     
+  
     
     var body: some View {
         VStack(alignment: .leading, spacing: 20, content: {
@@ -26,16 +32,11 @@ struct ProfileHost: View {
                 Spacer()
                 EditButton()
             }
+            
             if editMode?.wrappedValue == .inactive {
-                ProfileSummary(profile: modelData.profile)
-             } else {
-                ProfileEditor(profile: $draftProfile)
-                    .onAppear {
-                        draftProfile = modelData.profile
-                    }
-                    .onDisappear {
-                        modelData.profile = draftProfile
-                    }
+                profileSummary
+            } else {
+                profileEditor
             }
         })
         .padding()
